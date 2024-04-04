@@ -1,9 +1,12 @@
+import React from "react";
+import profilepic from "../assets/my-profile-pic.png";
+
 export default function Hero() {
     return(
         <>
         <section className="bg-gradient-to-r from-black to-orange-950 pt-24 pb-3.5 lg:pb-7 md:flex md:justify-center">
-        <div className="text-center">
-            <h1 className="text-white">Image Of me goes here</h1>
+        <div className="flex justify-center items-center">
+            <img src={profilepic} alt="profilepic" className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48"/>
         </div>
 
         <div className="text-center">
