@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <>
-            <section className="bg-transparent rounded-2xl my-2 mx-4 flex justify-between px-2.5 py-1.5 lg:px-6 lg:py-2.5 fixed top-0 left-0 right-0 z-10 border border-orange-200">
+            <section className="bg-black rounded-2xl my-2 mx-4 flex justify-between px-2.5 py-1.5 lg:px-6 lg:py-2.5 fixed top-0 left-0 right-0 z-10 border border-orange-200">
                 <div>
                     <h1 className="text-white font-semibold text-base md:text-lg lg:text-2xl">Samantha Adda</h1>
                 </div>
