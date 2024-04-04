@@ -1,4 +1,5 @@
 import bakeryscreenshot from "../assets/bakery-screenshot.png";
+import hairhavenscreenshot from "../assets/hairhaven-screenshot.png";
 
 export default function Projects() {
     return(
@@ -17,7 +18,7 @@ export default function Projects() {
                 <div>
                     <p>Butter Bliss Bakery</p>
                     <p className="text-xs">A landing page for a bakery website</p>
-                    <p>Html | Css</p>
+                    <p>Html | Css | Github | Vercel</p>
                     <div className="flex gap-4">
                     <i class="fa-solid fa-eye"></i>
                     <i class="fa-brands fa-github"></i>
@@ -25,12 +26,18 @@ export default function Projects() {
                 </div>
             </div>
 
-            <div className="flex text-white">
+            <div className="flex gap-4 text-white">
                 <div>
-                   <p>Project Description</p>    
+                <p>Hair Haven</p>
+                    <p className="text-xs">A landing page for a hair website</p>
+                    <p>React | Css | Github | Vercel</p>
+                    <div className="flex gap-4">
+                    <i class="fa-solid fa-eye"></i>
+                    <i class="fa-brands fa-github"></i>
+                    </div>    
                 </div>
                 <div>
-                   <h1>Project Image</h1>
+                   <img src={hairhavenscreenshot} alt="screenshot of a hair website" className="w-52 h-24"/>
                 </div>
             </div>
 

@@ -10,9 +10,9 @@ export default function Hero() {
         </div>
 
         <div className="text-center">
-            <h1 className="text-black md:text-xl lg:text-3xl">FULL-STACK WEB DEVELOPER</h1>
-            <h1 className="text-red-900 font-semibold md:text-4xl lg:text-5xl">Samantha Adda</h1>
-            <p className="text-slate-600 md:text-xl">I am a full-stack web developer from Ghana</p>
+            <h1 className="text-orange-600 md:text-xl lg:text-3xl">FULL-STACK WEB DEVELOPER</h1>
+            <h1 className="text-white font-semibold text-2xl md:text-4xl lg:text-5xl">Samantha Adda</h1>
+            <p className="text-slate-400 md:text-xl">I am a full-stack web developer from Ghana</p>
         </div>
         </section>
         </>

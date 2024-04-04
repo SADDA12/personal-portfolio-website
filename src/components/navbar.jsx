@@ -10,13 +10,13 @@ export default function Navbar() {
 
     return (
         <>
-            <section className="bg-black rounded-2xl my-2 mx-4 flex justify-between px-2.5 py-1.5 lg:px-6 lg:py-2.5 fixed top-0 left-0 right-0 z-10 border border-orange-200">
+            <section className="bg-black my-2 mx-4 flex justify-between px-2.5 py-1.5 lg:px-6 lg:py-2.5 fixed top-0 left-0 right-0 z-10 border-b">
                 <div>
                     <h1 className="text-white font-semibold text-base md:text-lg lg:text-2xl">Samantha Adda</h1>
                 </div>
 
                 <div className="md:hidden">
-                    <button onClick={toggleMenu} className="text-white text-xs focus:outline-none">
+                    <button onClick={toggleMenu} className="text-orange-600 text-xs focus:outline-none">
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                         </svg>
@@ -30,7 +30,7 @@ export default function Navbar() {
                                 <li className="text-white text-sm px-4 py-2 hover:bg-gray-700">Contact</li>
                             </ul>
                             <div>
-                            <p className="text-white text-xs">Download Cv</p>
+                            <button className="bg-orange-600 text-white text-sm p-2 m-1 rounded">Download Cv</button>
                             </div>
                         </div>
                     )}
