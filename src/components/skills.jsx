@@ -4,9 +4,9 @@ import figmalogo from "../assets/figmalogo.png";
 export default function Skills() {
     return(
         <>
-        <section className="bg-black px-3.5 py-4">
+        <section className="px-6 py-10">
             <div>
-                <h1 className="text-amber-600 font-semibold text-center md:text-2xl">My Skills</h1>
+                <h1 className="text-white font-semibold text-center text-xl pb-2 md:text-2xl">My Skills</h1>
             </div>
 
             <div className="md:flex md:justify-between">
