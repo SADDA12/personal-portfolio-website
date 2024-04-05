@@ -12,7 +12,7 @@ export default function Navbar() {
         <>
             <section className="bg-black my-2 mx-4 flex justify-between px-2.5 py-1.5 lg:px-6 lg:py-2.5 fixed top-0 left-0 right-0 z-10 border-b">
                 <div>
-                    <h1 className="text-white font-semibold text-base md:text-lg lg:text-2xl">Samantha Adda</h1>
+                    <h1 className="text-white font-semibold text-base md:text-xl lg:text-2xl">Samantha Adda</h1>
                 </div>
 
                 <div className="md:hidden">
@@ -44,7 +44,7 @@ export default function Navbar() {
                         <li className="text-base">Contact</li>
                     </ul>
                     <div>
-                    <p className="text-white text-base">Download Cv</p>
+                    <button className="bg-orange-600 text-white font-semibold text-sm p-2 rounded">Download Cv</button>
                     </div>
                 </div>
                 

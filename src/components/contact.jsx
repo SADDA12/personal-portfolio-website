@@ -1,29 +1,29 @@
 export default function Contact() {
     return(
         <>
-        <section className="bg-black px-3.5 py-4">
+        <section className="px-3.5 py-4">
             <div>
-                <h1 className="text-amber-600 font-semibold text-center md:text-2xl">Contact Me</h1>
+                <h1 className="text-white font-semibold text-center border-b border-orange-600 mx-28 text-xl md:text-2xl md:mx-40">Contact Me</h1>
             </div>
 
-            <div className="mx-5">
+            <div className="mx-5 my-4">
                 <form>
                     <label for="name" className="text-white">Full Name</label><br/>
 
-                    <input type="text" id="name" placeholder="Enter your full name" className=" mb-5 p-3 w-full rounded-lg"/><br/>
+                    <input type="text" id="name" placeholder="Enter your full name" className=" mb-3 p-2 w-full rounded-lg"/><br/>
 
 
 
                     <label for="email" className="text-white"> Email</label><br/>
 
-                    <input type="email" id="email" placeholder="Enter your email" className="mb-5 p-3 w-full rounded-lg"/><br/>
+                    <input type="email" id="email" placeholder="Enter your email" className="mb-3 p-2 w-full rounded-lg"/><br/>
 
 
                     <label for="contact" className="text-white">Contact Number</label><br/>
 
                     <div className="w-full">
 
-                    <select id="countrycode" className="mb-5 p-3 border border-l border-slate-300 w-1/4 rounded-lg">
+                    <select id="countrycode" className="mb-3 p-2 border border-l border-slate-300 w-1/4 rounded-lg">
                         <option>+232</option>
                         <option>+233</option>
                         <option>+242</option>
@@ -37,14 +37,14 @@ export default function Contact() {
                         <option>+44</option>
                         <option>+49</option>
                     </select>
-                    <input type="number" id="contact" placeholder="Phone number" className=" mb-5 p-3 border-y border-r border-slate-300 w-3/4 rounded-lg"/><br/>
+                    <input type="number" id="contact" placeholder="Phone number" className=" mb-3 p-2 border-y border-r border-slate-300 w-3/4 rounded-lg"/><br/>
 
                     </div>
 
                     <label for="message" className="text-white">Your Message</label><br/>
-                    <textarea id="message" placeholder="Enter your message" className="w-full mb-5 p-3 h-20 rounded-lg"></textarea><br/>
+                    <textarea id="message" placeholder="Enter your message" className="w-full mb-3 p-2 h-20 rounded-lg"></textarea><br/>
 
-                    <input type="button" onClick={() => alert("Your message has been sent")}  value="Send Message" className="bg-white hover:bg-red-800 text-red-500 hover:text-white font-bold py-2 px-4 rounded-3xl mt-2"/>
+                    <input type="button" onClick={() => alert("Your message has been sent")}  value="Send Message" className="bg-white hover:bg-red-800 text-red-500 hover:text-white font-bold py-1 px-2 rounded-3xl mt-2"/>
 
                 </form>
             </div>

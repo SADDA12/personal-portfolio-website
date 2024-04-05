@@ -6,19 +6,19 @@ export default function Skills() {
         <>
         <section className="px-6 py-10">
             <div>
-                <h1 className="text-white font-semibold text-center text-xl pb-2 md:text-2xl">My Skills</h1>
+                <h1 className="text-white font-semibold text-center border-b border-orange-600 mx-28 text-xl pb-2 md:text-2xl md:mx-40">My Skills</h1>
             </div>
 
-            <div className="md:flex md:justify-between">
+            <div className="pt-4 md:flex md:justify-between md:mx-20">
             <div>
                 <ul className="text-white md:text-xl">
-                    <li><i class="fa-brands fa-html5 text-red-600"></i> HTML <span className="text-sm">: Experienced</span></li>
-                    <li><i class="fa-brands fa-css3-alt text-blue-500"></i> CSS <span className="text-sm">: Experienced</span></li>
-                    <li><i class="fa-brands fa-js text-yellow-400"></i> JavaScript <span className="text-sm">: Intermediate</span></li>
+                    <li className="my-2"><i class="fa-brands fa-html5 text-red-600 md:text-4xl md:px-2"></i> HTML <span className="text-sm md:text-lg">: Experienced</span></li>
+                    <li className="my-2"><i class="fa-brands fa-css3-alt text-blue-500 md:text-4xl md:px-2"></i> CSS <span className="text-sm md:text-lg">: Experienced</span></li>
+                    <li className="my-2"><i class="fa-brands fa-js text-yellow-400 md:text-4xl md:px-2"></i> JavaScript <span className="text-sm md:text-lg">: Intermediate</span></li>
 
-                    <div className="flex">
-                    <img src={tailwindlogo} alt="tailwind css logo" className="w-4 h-4"/>
-                    <li> Tailwind <span className="text-sm">: Experienced</span></li>
+                    <div className="flex my-2">
+                    <img src={tailwindlogo} alt="tailwind css logo" className="w-4 h-4 md:w-10 md:h-8 md:px-1"/>
+                    <li> Tailwind <span className="text-sm md:text-lg">: Experienced</span></li>
                     </div>
 
                 </ul>
@@ -26,19 +26,19 @@ export default function Skills() {
 
             <div>
                 <ul className="text-white md:text-xl">
-                    <li><i class="fa-brands fa-react text-blue-400"></i> React <span className="text-sm">: Intermediate</span></li>
-                    <li><i class="fa-brands fa-node-js text-green-500"></i> Node <span className="text-sm">: Intermediate</span></li>
+                    <li className="my-2"><i class="fa-brands fa-react text-blue-400 md:text-4xl md:px-2"></i> React <span className="text-sm md:text-lg">: Intermediate</span></li>
+                    <li className="my-2"><i class="fa-brands fa-node-js text-green-500 md:text-4xl md:px-2"></i> Node <span className="text-sm md:text-lg">: Intermediate</span></li>
 
-                    <div className="flex">
-                        <img src={figmalogo} alt="figma logo" className="w-6 h-6"/>
+                    <div className="flex my-2">
+                        <img src={figmalogo} alt="figma logo" className="w-6 h-6 md:w-10 md:h-10"/>
 
-                        <li>Figma <span className="text-sm">: Intermediate</span></li>
+                        <li>Figma <span className="text-sm md:text-lg">: Intermediate</span></li>
                     </div>
                     
-                    <li> <i
-              class="fa-brands fa-envira fa-rotate-by text-green-500"
+                    <li className="my-2"> <i
+              class="fa-brands fa-envira fa-rotate-by text-green-500 md:text-3xl  md:px-2"
               style={{ rotate: "40deg" }}
-            ></i> MongoDB <span className="text-sm">: Intermediate</span></li>
+            ></i> MongoDB <span className="text-sm md:text-lg">: Intermediate</span></li>
                 </ul>
             </div>
             </div>
