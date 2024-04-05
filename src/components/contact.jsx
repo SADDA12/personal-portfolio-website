@@ -6,20 +6,20 @@ export default function Contact() {
                 <h1 className="text-white font-semibold text-center border-b border-orange-600 mx-28 text-xl md:text-2xl md:mx-40">Contact Me</h1>
             </div>
 
-            <div className="mx-5 my-4">
-                <form>
-                    <label for="name" className="text-white">Full Name</label><br/>
+            <div className="mx-5 my-4 md:flex md:justify-center">
+                <form className="md:w-9/12 lg:w-5/12">
+                    <label for="name" className="text-white md:text-xl">Full Name</label><br/>
 
                     <input type="text" id="name" placeholder="Enter your full name" className=" mb-3 p-2 w-full rounded-lg"/><br/>
 
 
 
-                    <label for="email" className="text-white"> Email</label><br/>
+                    <label for="email" className="text-white md:text-xl"> Email</label><br/>
 
                     <input type="email" id="email" placeholder="Enter your email" className="mb-3 p-2 w-full rounded-lg"/><br/>
 
 
-                    <label for="contact" className="text-white">Contact Number</label><br/>
+                    <label for="contact" className="text-white md:text-xl">Contact Number</label><br/>
 
                     <div className="w-full">
 
@@ -41,10 +41,10 @@ export default function Contact() {
 
                     </div>
 
-                    <label for="message" className="text-white">Your Message</label><br/>
-                    <textarea id="message" placeholder="Enter your message" className="w-full mb-3 p-2 h-20 rounded-lg"></textarea><br/>
+                    <label for="message" className="text-white md:text-xl">Your Message</label><br/>
+                    <textarea id="message" placeholder="Enter your message" className="w-full mb-3 p-2 h-20 rounded-lg lg:h-32"></textarea><br/>
 
-                    <input type="button" onClick={() => alert("Your message has been sent")}  value="Send Message" className="bg-white hover:bg-red-800 text-red-500 hover:text-white font-bold py-1 px-2 rounded-3xl mt-2"/>
+                    <input type="button" onClick={() => alert("Your message has been sent")}  value="Send Message" className="bg-white hover:bg-red-800 text-red-500 hover:text-white font-bold py-1 px-2 rounded-3xl mt-2 md:text-xl"/>
 
                 </form>
             </div>

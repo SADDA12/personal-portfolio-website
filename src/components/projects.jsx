@@ -11,7 +11,7 @@ export default function Projects() {
                 <h1 className="text-white font-semibold text-center border-b border-orange-600 mx-28 text-xl pb-2 md:text-2xl md:mx-40">My Projects</h1>
             </div>
 
-            <div className="bg-gray-800 py-4 mt-4 md:px-14">
+            <div className="py-4 mt-4 md:px-14">
 
             <div className="flex gap-4 text-white my-6 border-b border-orange-600 pb-4">
                 <div className="w-2/4">
