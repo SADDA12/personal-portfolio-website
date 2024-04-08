@@ -10,9 +10,9 @@ export default function Navbar() {
 
     return (
         <>
-            <section className="my-2 mx-4 flex justify-between px-2.5 py-1.5 lg:px-6 lg:py-2.5 fixed top-0 left-0 right-0 z-10 shadow-md border-b" style={{ backgroundColor: 'rgb(3, 29, 51)' }}>
+            <section className="bg-white mb-2  flex justify-between px-2.5 py-1.5 lg:px-6 lg:py-2.5 fixed top-0 left-0 right-0 z-10 shadow-md">
                 <div>
-                    <h1 className="text-white font-semibold text-base md:text-xl lg:text-2xl">Samantha Adda</h1>
+                    <h1 className=" font-semibold text-red-600 md:text-xl lg:text-2xl">Samantha Adda</h1>
                 </div>
 
                 <div className="md:hidden">
@@ -30,7 +30,7 @@ export default function Navbar() {
                                 <li className="text-white text-sm px-4 py-2 hover:bg-gray-700">Contact</li>
                             </ul>
                             <div>
-                            <button className="text-white text-sm p-2 m-1 rounded" style={{ backgroundColor: 'rgb(3, 29, 51)' }}>Download Cv</button>
+                            <button className="text-white text-xs px-2 py-1 m-1 rounded bg-slate-950">Download Cv</button>
                             </div>
                         </div>
                     )}
@@ -38,13 +38,13 @@ export default function Navbar() {
 
                 <div className="hidden md:block md:flex md:gap-12 lg:gap-20">
                     <ul className="text-white flex gap-4 lg:gap-14">
-                        <li className="text-base">Home</li>
-                        <li className="text-base">Projects</li>
-                        <li className="text-base">Skillsss</li>
-                        <li className="text-base">Contact</li>
+                        <li className="text-red-600">Home</li>
+                        <li className="text-red-600">Projects</li>
+                        <li className="text-red-600">Skills</li>
+                        <li className="text-red-600">Contact</li>
                     </ul>
                     <div>
-                    <button className="bg-orange-600 text-white font-semibold text-sm p-2 rounded">Download Cv</button>
+                    <button className="bg-red-600 text-white font-semibold text-sm px-2 py-1 rounded">Download Cv</button>
                     </div>
                 </div>
                 

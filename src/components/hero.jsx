@@ -1,11 +1,11 @@
 import React from "react";
-import profile from "../assets/profile1 (1).png";
+import profile from "../assets/profilephoto-me.png";
 export default function Hero() {
     return(
         <>
         <section className="pt-24 pb-3.5 lg:pb-7 md:justify-center">
         <div className="flex justify-center items-center">
-            <img src={profile} alt="my profile pic" className="w-48 h-40 md:w-40 md:h-40 lg:w-48 lg:h-48"/>
+            <img src={profile} alt="my profile pic" className="w-36 h-40 bg-white rounded-full md:w-40 md:h-40 lg:w-48 lg:h-48"/>
         </div>
 
         <div className="text-center">
