@@ -10,7 +10,7 @@ import FollowMe from "../components/followme";
 export default function LandingPage() {
     return(
         <>
-        <section className="bg-black">
+        <section style={{ backgroundColor: 'rgb(3, 29, 51)' }}>
         <Navbar/>
         <Hero/>
         <About/>
