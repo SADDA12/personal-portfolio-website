@@ -46,15 +46,13 @@ export default function Contact() {
 
                     <input type="button" onClick={() => alert("Your message has been sent")}  value="Send Message" className="bg-white hover:bg-red-800 text-red-500 hover:text-white font-bold py-1 px-2 rounded-3xl mt-2 md:text-xl"/>
 
+                    <div className="mt-2">
+                  <p className="text-white">E-mail: sammiedaga@gmail.com</p>
+                </div>
+
                 </form>
                 
-                <div className="mt-2">
-                  <p className="text-white">E-mail:</p>
-                </div>
             </div>
-
-
-
 
         </section>
         </>

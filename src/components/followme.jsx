@@ -7,8 +7,12 @@ export default function FollowMe() {
             </div>
 
             <div>
-            <i class="fa-brands fa-github text-white px-3.5 text-2xl lg:text-4xl"></i>
-            <i class="fa-brands fa-linkedin text-white px-3.5 text-2xl lg:text-4xl"></i>
+            <a href="https://github.com/SADDA12" target="_blank" rel="noopener noreferrer">
+               <i class="fa-brands fa-github text-white px-3.5 text-2xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/samantha-adda-09b4821ba" target="_blank" rel="noopener noreferrer">
+               <i class="fa-brands fa-linkedin text-white px-3.5 text-2xl"></i>
+            </a>
             </div>
         </section>
         </>
