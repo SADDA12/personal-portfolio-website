@@ -8,25 +8,28 @@ export default function Projects() {
         <>
         <section className="px-3.5 py-10">
             <div>
-                <h1 className="text-white font-semibold text-center border-b border-orange-600 mx-28 text-xl pb-2 md:text-2xl md:mx-40">My Projects</h1>
+                <h1 className="text-white font-semibold text-center border-b-2 mx-28 text-xl pb-2 md:text-2xl md:mx-40">My Projects</h1>
             </div>
 
-            <div className="py-4 mt-4 md:px-14">
+            <div className="bg-white py-4 mt-4 md:px-14">
 
-            <div className="flex gap-4 text-white my-6 border-b border-orange-600 pb-4">
-                <div className="w-2/4">
-                    <img src={bakeryscreenshot} alt="screenshot of a bakery website" className="w-52 h-24"/>
-                </div>
-                <div className="w-2/4">
-                    <p>Butter Bliss Bakery</p>
-                    <p className="text-xs">A landing page for a bakery website which showcases the bakeries products and services</p>
-                    <p className="text-xs">Html | Css | Github | Vercel</p>
+            
+            <div className="text-red-500 my-6 border-b border-orange-600 flex justify-center">
+                <div className="w-3/4 border">
+                    <img src={bakeryscreenshot} alt="screenshot of a bakery website" className="w-full h-32"/>
+
+                    <div className=" p-1">
+                    <p className="text-center">Butter Bliss Bakery</p>
+                    <p className="text-xs py-1">A landing page for a bakery website which showcases the bakeries products and services</p>
+                    <p className="text-xs py-1">Html | Css | Github | Vercel</p>
                     <div className="flex gap-4">
                     <i class="fa-solid fa-eye"></i>
                     <i class="fa-brands fa-github"></i>
                     </div>
+                    </div>
                 </div>
             </div>
+            
 
             <div className="flex gap-4 my-6 text-white border-b border-orange-600 pb-4">
                 <div className="w-2/4">

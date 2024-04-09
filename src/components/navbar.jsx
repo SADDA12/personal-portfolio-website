@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ export default function Navbar() {
                                 <li className="text-white text-sm px-4 py-2 hover:bg-gray-700">Contact</li>
                             </ul>
                             <div>
-                            <button className="text-white text-xs px-2 py-1 m-1 rounded bg-slate-950">Download Cv</button>
+                            <button className="text-white text-xs px-2 py-1 m-1 rounded bg-slate-950" ><Link to="/SamanthaAddaCv.pdf.pdf" target="_blank" download>Download Cv</Link></button>
                             </div>
                         </div>
                     )}
@@ -44,7 +45,7 @@ export default function Navbar() {
                         <li className="text-red-600">Contact</li>
                     </ul>
                     <div>
-                    <button className="bg-red-600 text-white font-semibold text-sm px-2 py-1 rounded">Download Cv</button>
+                    <button className="bg-red-600 text-white font-semibold text-sm px-2 py-1 rounded"><Link to="/SamanthaAddaCv.pdf.pdf" target="_blank" download>Download Cv</Link></button>
                     </div>
                 </div>
                 
