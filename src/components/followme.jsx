@@ -3,7 +3,7 @@ export default function FollowMe() {
         <>
         <section className="flex justify-between px-8 py-4 lg:mx-72">
             <div>
-                <h1 className="text-orange-600 text-2xl font-semibold lg:text-4xl">Follow me</h1>
+                <h1 className="text-red-600 text-2xl font-semibold lg:text-4xl">Follow me</h1>
             </div>
 
             <div>
