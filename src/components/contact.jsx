@@ -1,7 +1,7 @@
 export default function Contact() {
     return(
         <>
-        <section className="px-3.5 py-4">
+        <section id="contact" className="px-3.5 py-4">
             <div>
                 <h1 className="text-white font-semibold text-center border-b-2 mx-28 text-xl md:text-2xl md:mx-40">Contact Me</h1>
             </div>

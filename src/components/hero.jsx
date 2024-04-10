@@ -3,7 +3,7 @@ import profile from "../assets/profilephoto-me.png";
 export default function Hero() {
     return(
         <>
-        <section className="pt-24 pb-3.5 lg:pb-7 md:justify-center">
+        <section id="hero" className="pt-24 pb-3.5 lg:pb-7 md:justify-center">
         <div className="flex justify-center items-center">
             <img src={profile} alt="my profile pic" className="w-36 h-40 bg-white rounded-full md:w-40 md:h-40 lg:w-48 lg:h-48"/>
         </div>
@@ -27,7 +27,7 @@ export default function Hero() {
                 <h1 className="text-center text-red-500 font-bold text-xl">Things I love</h1>
             </div>
 
-            <div className="flex gap-6 md:gap-10">
+            <div className="flex justify-center gap-6 md:gap-10">
                 <div className="bg-white border rounded p-2 md:w-9/12 lg:w-5/12">
                     <div className="text-center">
                       <i class="fa-solid fa-code border p-2 bg-red-500 text-white"></i>

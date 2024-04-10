@@ -6,9 +6,9 @@ export default function Skills() {
 
     return(
         <>
-        <section className="px-6 py-10">
+        <section id="skills" className="px-6 py-10">
             <div>
-                <h1 className="text-white font-semibold text-center border-b-2 mx-28 text-xl pb-2 md:text-2xl md:mx-40">My Skills</h1>
+                <h1 className="text-white font-semibold text-center border-b-2 mx-28 text-xl pb-2 md:text-2xl md:mx-40 lg:mx-96">My Skills</h1>
             </div>
 
             <div>
