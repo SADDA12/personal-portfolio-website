@@ -2,6 +2,7 @@ import bakeryscreenshot from "../assets/bakery-screenshot.png";
 import hairhavenscreenshot from "../assets/hairhaven-screenshot.png";
 import agromartshot from "../assets/agromartshot.png";
 import onyxcinemashot from "../assets/onyxcinemashot.png";
+import techguideme from "../assets/TGM.png";
 
 export default function Projects() {
     return(
@@ -11,7 +12,9 @@ export default function Projects() {
                 <h1 className="text-white font-semibold text-center border-b-2 mx-28 text-xl pb-2 md:text-2xl md:mx-40 lg:mx-96">My Projects</h1>
             </div>
 
-            <div className="bg-white rounded py-4 my-4 mx-6 md:px-14 lg:flex">
+            <div className="bg-white rounded">
+
+            <div className="py-4 my-4 mx-6 md:px-14 lg:flex">
 
             <div className="lg:w-1/2">
             <div className="text-red-500 my-6 flex justify-center">
@@ -100,7 +103,42 @@ export default function Projects() {
             </div>
 
 
+
             </div>
+
+
+            <div className="py-4 my-4 mx-6 md:px-14 lg:flex">
+
+            <div className="lg:w-1/2">
+            <div className="text-red-500 my-6 flex justify-center">
+                <div className="w-3/4 border">
+                    <img src={techguideme} alt="screenshot of a mentor website" className="w-full h-32 md:h-48"/>
+
+                    <div className=" p-1">
+                    <p className="text-center font-semibold md:text-2xl">TechGuideMe</p>
+                    <p className="text-xs py-1 md:text-xl">A mentor app that allows mentees look for mentors in the tech industry and book them based on their availability.</p>
+                    <p className="text-xs py-1 md:text-sm">React | Tailwind | Github | Vercel</p>
+                    <div className="text-black flex gap-4">
+                    <a href="https://tech-guide-me.vercel.app" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-eye md:text-2xl"></i>
+                    </a>
+                    <a href="https://github.com/SADDA12/Tech-Guide-Me" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github md:text-2xl"></i>
+                    </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div className="lg:w-1/2">
+            </div>
+
+            </div>
+
+            </div>
+
+            
         </section>
         </>
     )

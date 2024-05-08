@@ -54,12 +54,12 @@ export default function Navbar() {
                         <div className="absolute right-0 mt-6 w-48 bg-red-500 rounded-lg shadow-xl md:flex">
                             <ul className="py-2">
                                 <li><a href="#hero" className="text-white text-sm px-4 py-2 hover:bg-gray-700">Home</a></li>
-                                <li><a href="#projects" className="text-white text-sm px-4 py-2 hover:bg-gray-700">Projects</a></li>
                                 <li><a href="#skills" className="text-white text-sm px-4 py-2 hover:bg-gray-700">Skills</a></li>
+                                <li><a href="#projects" className="text-white text-sm px-4 py-2 hover:bg-gray-700">Projects</a></li>
                                 <li><a href="#contact" className="text-white text-sm px-4 py-2 hover:bg-gray-700">Contact</a></li>
                             </ul>
                             <div>
-                            <button className="text-white text-xs px-2 py-1 m-1 rounded bg-slate-950" ><Link to="/SamanthaAddaCv.pdf.pdf" target="_blank" download>Download Cv</Link></button>
+                            <button className="text-white text-xs px-2 py-1 m-1 rounded bg-slate-950" ><Link to="/SamanthaAddaCv.pdf" target="_blank" download>Download Cv</Link></button>
                             </div>
                         </div>
                     )}
@@ -68,12 +68,12 @@ export default function Navbar() {
                 <div className="hidden md:block md:flex md:gap-12 lg:gap-20">
                     <div className="text-white flex gap-4 lg:gap-14">
                     <a href="#hero" className={`text-red-600 hover:text-indigo-950 ${activeSection === '#hero' ? 'font-bold text-xl border-b border-red-600' : ''}`}>Home</a>
+                    <a href="#skills" className={`text-red-600 hover:text-indigo-950 ${activeSection === '#skills' ? 'font-bold text-xl border-b border-red-600' : ''}`}>Skills</a>
                 <a href="#projects" className={`text-red-600 hover:text-indigo-950 ${activeSection === '#projects' ? 'font-bold text-xl border-b border-red-600' : ''}`}>Projects</a>
-                <a href="#skills" className={`text-red-600 hover:text-indigo-950 ${activeSection === '#skills' ? 'font-bold text-xl border-b border-red-600' : ''}`}>Skills</a>
                 <a href="#contact" className={`text-red-600 hover:text-indigo-950 ${activeSection === '#contact' ? 'font-bold text-xl border-b border-red-600' : ''}`}>Contact</a>
                     </div>
                     <div>
-                    <button className="bg-red-600 text-white font-semibold text-sm px-2 py-1 rounded"><Link to="/SamanthaAddaCv.pdf.pdf" target="_blank" download>Download Cv</Link></button>
+                    <button className="bg-red-600 text-white font-semibold text-sm px-2 py-1 rounded"><Link to="/SamanthaAddaCv.pdf" target="_blank" download>Download Cv</Link></button>
                     </div>
                 </div>
                 

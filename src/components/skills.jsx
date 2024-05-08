@@ -26,7 +26,7 @@ export default function Skills() {
 
                     <div>
                     <li className="my-2"><i class="fa-brands fa-react text-blue-400 md:text-4xl md:px-2"></i> React <span className="text-sm md:text-lg">: Intermediate</span></li>
-                    <li className="my-2"><i class="fa-brands fa-node-js text-green-500 md:text-4xl md:px-2"></i> Node <span className="text-sm md:text-lg">: Intermediate</span></li>
+                    <li className="my-2"><i class="fa-brands fa-node-js text-green-500 md:text-4xl md:px-2"></i> Node.js <span className="text-sm md:text-lg">: Intermediate</span></li>
 
                     <div className="flex my-2">
                         <img src={figmalogo} alt="figma logo" className="w-6 h-6 md:w-10 md:h-10"/>
