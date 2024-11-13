@@ -1,50 +1,62 @@
 import React from "react";
-import profile from "../assets/profilephoto-me.png";
+import me2 from "../assets/me2.png";
 export default function Hero() {
     return(
         <>
-        <section id="hero" className="pt-24 pb-3.5 lg:pb-7 md:justify-center">
-        <div className="flex justify-center items-center">
-            <img src={profile} alt="my profile pic" className="w-36 h-40 bg-white rounded-full md:w-40 md:h-40 lg:w-48 lg:h-48"/>
-        </div>
 
-        <div className="text-center">
-            <h1 className="text-red-500 md:text-xl lg:text-3xl">FULL-STACK WEB DEVELOPER</h1>
-            <h1 className="text-white font-semibold text-2xl md:text-4xl lg:text-5xl">Samantha Adda</h1>
-            <p className="text-white md:text-xl">I am a full-stack web developer from Ghana</p>
+        <section id="hero" className="bg-white">
 
+        <section className="block lg:hidden flex flex-col items-center justify-center py-20 px-3.5 md:py-32 md:px-6">
+            <div>
+            <img src={me2} alt="my profile pic" className="w-40 h-44 md:w-52 md:h-52 rounded-full"/>
+            </div>
+
+            <div className="flex flex-col items-center justify-center my-4">
+            <h1 className="text-black md:text-xl"> I'M <span className="text-black">DEVELOPER</span></h1>
+            <h1 className="text-black font-semibold text-2xl md:text-4xl my-2">SAMANTHA ADDA</h1>
+            <p className="text-black md:text-xl text-center">Greetings, fellow digital explorers! I am Samantha, a passionate and innovative developer, dedicated to crafting immersive digital experiences. Welcome to my online abode.</p>
+
+            <div className="mt-2">
             <a href="https://www.linkedin.com/in/samantha-adda-09b4821ba" target="_blank" rel="noopener noreferrer">
-               <i class="fa-brands fa-linkedin text-white px-3.5 text-2xl lg:text-3xl"></i>
+                <i class="fa-brands fa-linkedin text-slate-600 px-3.5 text-2xl lg:text-3xl"></i>
             </a>
             <a href="https://github.com/SADDA12" target="_blank" rel="noopener noreferrer">
-               <i class="fa-brands fa-github text-white px-3.5 text-2xl lg:text-3xl"></i>
+                <i class="fa-brands fa-github text-slate-600 px-3.5 text-2xl"></i>
             </a>
-        </div>
-        </section>
-
-        <section className="bg-red-50 mx-4 rounded p-3 md:p-6">
-            <div className="mb-2">
-                <h1 className="text-center text-red-500 font-bold text-xl">Things I love</h1>
             </div>
-
-            <div className="flex justify-center gap-6 md:gap-10">
-                <div className="bg-white border rounded p-2 md:w-9/12 lg:w-5/12">
-                    <div className="text-center">
-                      <i class="fa-solid fa-code border p-2 bg-red-500 text-white"></i>
-                    </div>
-                    <h1 className="text-center text-red-500">Frontend</h1>
-                    <p className="text-sm text-center">I am more frontend focused and love to work with Reactjs as well as pure HTML and CSS</p>
-                </div>
-
-                <div className="bg-white border rounded p-2 md:w-9/12 lg:w-5/12">
-                    <div className="text-center">
-                       <i class="fa-solid fa-paintbrush border p-2 bg-red-500 text-white"></i>
-                    </div>
-                    <h1 className="text-center text-red-500">Creative Coding</h1>
-                    <p className="text-sm text-center">I love creative coding because making beautiful art with code is very satisfying to me</p>
-                </div>
+            
             </div>
         </section>
+
+        <section className="hidden lg:block mt-20 px-20 py-10">
+         <div className="flex justify-center items-center">
+
+            <div>
+            <a href="https://www.linkedin.com/in/samantha-adda-09b4821ba" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin text-slate-600 hover:scale-110 hover:text-violet-600 py-4 text-2xl lg:text-3xl"></i>
+            </a>
+            <a href="https://github.com/SADDA12" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github text-slate-600 hover:scale-110 hover:text-violet-600 py-4 text-2xl"></i>
+            </a>
+
+            </div>
+
+            <div className="w-2/3 px-5">
+            <h1 className="text-black md:text-xl"> I'M <span className="text-black">DEVELOPER</span></h1>
+            <h1 className="text-black font-semibold text-2xl md:text-4xl my-2">SAMANTHA ADDA</h1>
+            <p className="text-black md:text-xl">Greetings, fellow digital explorers! I am Samantha, a passionate and innovative developer, dedicated to crafting immersive digital experiences. Welcome to my online abode.</p>
+
+            </div>
+
+            <div className="w-1/3">
+            <img src={me2} alt="my profile pic" className="h-80 w-72 rounded-full"/>
+            </div>
+         </div>
+        </section>
+
+        </section>
+
+
         </>
     )
 };

@@ -1,48 +1,93 @@
 import React from 'react';
-import tailwindlogo from "../assets/tailwindlogo.png";
-import figmalogo from "../assets/figmalogo.png";
 
 export default function Skills() {
 
     return(
         <>
-        <section id="skills" className="px-6 py-10">
-            <div>
-                <h1 className="text-white font-semibold text-center border-b-2 mx-28 text-xl pb-2 md:text-2xl md:mx-40 lg:mx-96">My Skills</h1>
-            </div>
+        <section id="skills" className="bg-white p-6">
+        <h1 className="font-semibold text-xl md:text-2xl text-center">Skills</h1>
 
-            <div>
-                <ul className=" text-white md:text-xl md:flex md:justify-center md:gap-14">
-                    <div>
-                    <li className="my-2"><i class="fa-brands fa-html5 text-red-600 md:text-4xl md:px-2"></i> HTML <span className="text-sm md:text-lg">: Experienced</span></li>
-                    <li className="my-2"><i class="fa-brands fa-css3-alt text-blue-500 md:text-4xl md:px-2"></i> CSS <span className="text-sm md:text-lg">: Experienced</span></li>
-                    <li className="my-2"><i class="fa-brands fa-js text-yellow-400 md:text-4xl md:px-2"></i> JavaScript <span className="text-sm md:text-lg">: Intermediate</span></li>
+        
+    <div className="lg:flex lg:gap-4 lg:justify-center">
 
-                    <div className="flex my-2">
-                    <img src={tailwindlogo} alt="tailwind css logo" className="w-4 h-4 md:w-10 md:h-8 md:px-1"/>
-                    <li> Tailwind <span className="text-sm md:text-lg">: Experienced</span></li>
-                    </div>
-                    </div>
+        <div className="lg:w-1/2">
+    
+    <div className="mb-4">
+        <h3 className="font-semibold italic">html/css</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '90%' }}></div>
+        </div>
+    </div>
 
-                    <div>
-                    <li className="my-2"><i class="fa-brands fa-react text-blue-400 md:text-4xl md:px-2"></i> React <span className="text-sm md:text-lg">: Intermediate</span></li>
-                    <li className="my-2"><i class="fa-brands fa-node-js text-green-500 md:text-4xl md:px-2"></i> Node.js <span className="text-sm md:text-lg">: Intermediate</span></li>
+    <div className="mb-4">
+        <h3 className="font-semibold italic">javascript</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '70%' }}></div>
+        </div>
+    </div>
 
-                    <div className="flex my-2">
-                        <img src={figmalogo} alt="figma logo" className="w-6 h-6 md:w-10 md:h-10"/>
+    <div className="mb-4">
+        <h3 className="font-semibold italic">react</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '80%' }}></div>
+        </div>
+    </div>
 
-                        <li>Figma <span className="text-sm md:text-lg">: Intermediate</span></li>
-                    </div>
-                    
-                    <li className="my-2"> <i
-                    class="fa-brands fa-envira fa-rotate-by text-green-500 md:text-3xl  md:px-2"
-                    style={{ rotate: "40deg" }}
-                    ></i> MongoDB <span className="text-sm md:text-lg">: Intermediate</span></li>
-                    </div>
-                </ul>
-            </div>
+    <div className="mb-4">
+        <h3 className="font-semibold italic">responsive web design</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '90%' }}></div>
+        </div>
+    </div>
 
-        </section>
+    </div>
+    <div className="lg:w-1/2">
+
+    <div className="mb-4">
+        <h3 className="font-semibold italic">node.js/express</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '70%' }}></div>
+        </div>
+    </div>
+
+    <div className="mb-4">
+        <h3 className="font-semibold italic">api integration</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '60%' }}></div>
+        </div>
+    </div>
+
+    <div className="mb-4">
+        <h3 className="font-semibold italic">react native</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '70%' }}></div>
+        </div>
+    </div>
+
+    <div className="mb-4">
+        <h3 className="font-semibold italic">ui/ux design</h3>
+        <div className="w-full bg-slate-100 h-2 rounded shadow">
+            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '60%' }}></div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div>
+        <h3 className='text-center font-semibold'>Other Skills</h3>
+    </div>
+
+    <div>
+        <p>Project Management</p>
+        <p>Communication</p>
+        <p>Teamwork</p>
+        <p>Adaptabilty</p>
+    </div>
+    
+
+</section>
+
         </>
     )
 };
