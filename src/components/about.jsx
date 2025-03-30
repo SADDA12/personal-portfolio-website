@@ -10,7 +10,7 @@ export default function About() {
         <section className="bg-slate-50 flex flex-col items-center py-10">
             <div className="w-4/5 text-center">
             <h1 className="font-semibold text-xl md:text-2xl">About Me</h1>
-            <p className="pt-2">Hi, I am Samantha Adda, a full-stack web developer, passionate about leveraging my skills to build beautiful and scalable web applications. I have acquired a certificate in Frontend Development and am currently expanding my knowledge in both frontend and backend development. I am higly proficient in the programming languages. With a blend of creativity, attention to detail and great teamwork, I aspire to achieve long term goals by learning new skills. Feel free to contact me for opportunities and collaborations.</p>
+            <p className="pt-2">Hi, I am Samantha Adda, a frontend developer, passionate about leveraging my skills to build beautiful and scalable web and mobile applications. I have acquired a certificate in Frontend Development and am currently expanding my knowledge in UI/UX design. I am higly proficient in the programming languages. With a blend of creativity, attention to detail and great teamwork, I aspire to achieve long term goals by learning new skills. Feel free to contact me for opportunities and collaborations.</p>
             </div>
 
             <h1 className="font-semibold py-4 md:text-xl">Specializing In</h1>
@@ -18,7 +18,7 @@ export default function About() {
                 <div className='bg-slate-100 rounded p-3 flex flex-col items-center w-80 shadow-lg mb-4 md:h-96 lg:w-2/5 lg:h-80'>
                     <img src={webDev} alt="webDev" className='w-24 h-20'/>
                     <h1 className='text-center font-semibold'>Web Development</h1>
-                    <p>With a strong foundation in both frontend and backend development, I craft scalable and visually appealing web applications. Leveraging the latest technologies and frameworks, I prioritize responsive design, performance, and seamless user experiences to deliver high-quality web solutions that meet modern standards</p>
+                    <p>With a strong foundation in both frontend development, I craft scalable and visually appealing web applications. Leveraging the latest technologies and frameworks, I prioritize responsive design, performance, and seamless user experiences to deliver high-quality web solutions that meet modern standards</p>
                 </div>
 
                 <div className='bg-slate-100 rounded p-3 flex flex-col items-center w-80 shadow-lg md:h-96 lg:w-2/5 lg:h-80'>
