@@ -57,12 +57,6 @@ export default function Skills() {
         </div>
     </div>
 
-    <div className="mb-4">
-        <h3 className="font-semibold italic">react native</h3>
-        <div className="w-full bg-slate-100 h-2 rounded shadow">
-            <div className="bg-violet-300 h-2 rounded shadow" style={{ width: '70%' }}></div>
-        </div>
-    </div>
 
 
     </div>

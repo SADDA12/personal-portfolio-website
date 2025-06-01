@@ -59,7 +59,7 @@ export default function Navbar() {
                                 <li><a href="#contact" className="text-white text-sm px-4 py-2">Contact</a></li>
                             </ul>
                             <div>
-                            <button className=" text-white text-xs px-3 py-1 m-1 rounded-full bg-gradient-to-b from-violet-400 to-violet-500" ><Link to="/SamanthaAddaResume.docx.pdf" target="_blank" download>Download Cv</Link></button>
+                            <button className=" text-white text-xs px-3 py-1 m-1 rounded-full bg-gradient-to-b from-violet-400 to-violet-500" ><Link to="/Samantha AddaCV.pdf" target="_blank" download>Download Cv</Link></button>
                             </div>
                         </div>
                     )}
@@ -73,7 +73,7 @@ export default function Navbar() {
                 <a href="#contact" className={`hover:text-violet-300 ${activeSection === '#contact' ? 'font-bold border-b text-violet-300 border-violet-300' : ''}`}>Contact</a>
                     </div>
                     <div>
-                    <button className="bg-gradient-to-b from-violet-400 to-violet-500 text-white font-semibold text-sm px-4 py-2 rounded-tr-lg rounded-bl-2xl"><Link to="/SamanthaAddaResume.docx.pdf" target="_blank" download>Download Cv</Link></button>
+                    <button className="bg-gradient-to-b from-violet-400 to-violet-500 text-white font-semibold text-sm px-4 py-2 rounded-tr-lg rounded-bl-2xl"><Link to="/Samantha AddaCV.pdf" target="_blank" download>Download Cv</Link></button>
                     </div>
                 </div>
                 

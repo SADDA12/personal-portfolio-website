@@ -1,6 +1,4 @@
 import React from 'react';
-import webDev from "../assets/webDev.png";
-import mobDev from "../assets/mobDev.png";
 
 
 export default function About() {
@@ -10,25 +8,14 @@ export default function About() {
         <section className="bg-slate-50 flex flex-col items-center py-10">
             <div className="w-4/5 text-center">
             <h1 className="font-semibold text-xl md:text-2xl">About Me</h1>
-            <p className="pt-2">Hi, I am Samantha Adda, a frontend developer, passionate about leveraging my skills to build beautiful and scalable web and mobile applications. I have acquired a certificate in Frontend Development and am currently expanding my knowledge in UI/UX design. I am higly proficient in the programming languages. With a blend of creativity, attention to detail and great teamwork, I aspire to achieve long term goals by learning new skills. Feel free to contact me for opportunities and collaborations.</p>
+            <p className="pt-2"> Hi! I’m Samantha, a frontend developer with a background in business and project management. I enjoy bringing ideas to life through clean, responsive, and user-friendly web interfaces.
+After completing a BSc in Resource Enterprise and Entrepreneurship, I discovered a passion for tech and began learning frontend development. I’ve worked with tools like HTML, CSS, JavaScript, and React to build functional web pages.
+I recently took time to strengthen my skills in project management and virtual assistance, which improved how I work with teams, manage timelines, and communicate effectively. Now, I am currently looking for opportunities to sharpen my skills further.
+When I’m not coding, you’ll find me organizing digital projects, improving user journeys, or learning new ways to combine tech with real-world solutions.
+Let’s build something amazing together!.Feel free to contact me for opportunities and collaborations.</p>
             </div>
 
-            <h1 className="font-semibold py-4 md:text-xl">Specializing In</h1>
-            <div className="md:flex md:gap-6 lg:justify-center">
-                <div className='bg-slate-100 rounded p-3 flex flex-col items-center w-80 shadow-lg mb-4 md:h-96 lg:w-2/5 lg:h-80'>
-                    <img src={webDev} alt="webDev" className='w-24 h-20'/>
-                    <h1 className='text-center font-semibold'>Web Development</h1>
-                    <p>With a strong foundation in both frontend development, I craft scalable and visually appealing web applications. Leveraging the latest technologies and frameworks, I prioritize responsive design, performance, and seamless user experiences to deliver high-quality web solutions that meet modern standards</p>
-                </div>
-
-                <div className='bg-slate-100 rounded p-3 flex flex-col items-center w-80 shadow-lg md:h-96 lg:w-2/5 lg:h-80'>
-                    <img src={mobDev} alt="webDev" className='w-24 h-20'/>
-                    <h1 className='text-center font-semibold'>Mobile App Development</h1>
-                    <p>Specializing in cross-platform and native app development, I create mobile applications that are intuitive, efficient, and visually engaging. From design to deployment, I focus on user-centered interfaces and optimized performance to provide impactful mobile experiences across a range of devices</p>
-                </div>
-
-                
-            </div>
+            
         </section>
 
 
